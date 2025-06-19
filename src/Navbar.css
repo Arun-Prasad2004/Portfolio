@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 195, 255, 0.3);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navbar a {
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.navbar a:hover {
+  color: #00c3ff;
+}
