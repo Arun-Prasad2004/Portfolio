@@ -5,11 +5,11 @@ export const Achievements = () => (
     <h2 className="ach-title">Achievements</h2>
     <div className="achievements-list">
       <div className="achievement-card">
-        <img src="/tce.jpg" alt="TechFusion Certificate" className="achievement-certificate" />
+        <img src="portfolio\public\tce.jpg" alt="TechFusion Certificate" className="achievement-certificate" />
         <span>TechFusion Ideathon – 2nd Prize (TCE Madurai)</span>
       </div>
       <div className="achievement-card">
-        <img src="/srm.jpg" alt="Techspectrum Certificate" className="achievement-certificate" />
+        <img src="portfolio\public\srm.jpg" alt="Techspectrum Certificate" className="achievement-certificate" />
         <span>Techspectrum Ideanova – 2nd Prize (SRM Trichy)</span>
       </div>
     </div>

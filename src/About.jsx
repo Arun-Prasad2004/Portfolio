@@ -8,7 +8,7 @@ export const About = () => (
       <h2>About Me</h2>
       <div className="about-content">
         <div className="about-image">
-          <img src="/profile.jpg" alt="Arun Prasad" />
+          <img src="portfolio\public\profile.jpg" alt="Arun Prasad" />
         </div>
         <div className="about-text">
           <p>
