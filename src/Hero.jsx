@@ -12,7 +12,7 @@ export const Hero = () => {
   return (
     <div className={`hero-section ${visible ? 'fade-in-up' : ''}`}>
       <video autoPlay loop muted playsInline className="bg-video">
-        <source src="portfolio\public\bg-video.mp4" type="video/mp4" />
+        <source src="\bg-video.mp4" type="video/mp4" />
       </video>
       <div className="hero-overlay">
         <h1>Hi,I m Arun</h1>
