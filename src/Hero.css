@@ -9,12 +9,26 @@
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-section.fade-in-up {
   opacity: 1;
   transform: translateY(0);
 }
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 2rem;
+  }
+  .hero-overlay p {
+    font-size: 1rem;
+  }
+  .hero-button {
+    padding: 12px 24px;
+  }
+}
+
 
 .bg-video {
   position: absolute;
@@ -23,8 +37,7 @@
   object-fit: cover;
   filter: brightness(0.4);
   z-index: 1;
-  left: -60px;
-  top: -300px;
+  
 }
 
 .hero-overlay {
