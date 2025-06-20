@@ -11,6 +11,8 @@
   transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
   margin: 0;
   padding: 0;
+  left: -20px; /* Adjust to align with the wave */
+  top: -10px;
 }
 
 .hero-section.fade-in-up {
@@ -67,14 +69,4 @@
 .hero-button:hover {
   background: #fff;
   transform: scale(1.05);
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-/* Optional: box-sizing reset */
-*, *::before, *::after {
-  box-sizing: border-box;
 }
