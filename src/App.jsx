@@ -10,7 +10,7 @@ import { Contact } from './Contact';
 import { Navbar } from './Navbar';
 import { ThreeBackground } from './WavyBackground';
  // <-- NEW
-import './App.css';
+import './index.css';
 
 function App() {
   useEffect(() => {
