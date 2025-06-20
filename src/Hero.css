@@ -23,8 +23,8 @@
   object-fit: cover;
   filter: brightness(0.4);
   z-index: 1;
-  left: -40px;
-  top: -200px;
+  left: -60px;
+  top: -300px;
 }
 
 .hero-overlay {
